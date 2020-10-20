@@ -3,7 +3,7 @@
   "short_name": "PWAt",
   "start_url": "https://valdemirfilho.github.io/pwa_test/",
   "background_color": "#555",
-  "theme_color": "#999",
+  "theme_color": "#f00",
   "display": "standalone",
   "icons": [
     {
