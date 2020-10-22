@@ -7,12 +7,11 @@ if ("serviceWorker" in navigator) {
 }
 
 
-const deferredPrompt;
 const btnInstall = document.querySelector('.btn-install');
 
 window.addEventListener('beforeinstallprompt', (e) => {
   e.preventDefault();
-  deferredPrompt = e;
+  const deferredPrompt = e
   btnInstall.addEventListener('click', (e) => {
     deferredPrompt.prompt();
     deferredPrompt.userChoice.then((choiceResult) => {
