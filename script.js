@@ -17,11 +17,11 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
   // Update UI notify the user they can install the PWA
-  showInstallPromotion();
+  // showInstallPromotion();
 });
 
 btnInstall.addEventListener('click', (e) => {
-  hideMyInstallPromotion();
+  // hideMyInstallPromotion();
   deferredPrompt.prompt();
   deferredPrompt.userChoice.then((choiceResult) => {
     if (choiceResult.outcome === 'accepted') {
