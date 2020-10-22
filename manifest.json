@@ -1,7 +1,8 @@
 {
   "name": "PWA Test",
   "short_name": "PWAt",
-  "start_url": "https://valdemirfilho.github.io/pwa_test/",
+  "start_url": ".",
+  "description": "Esse é apenas um teste de PWA",
   "background_color": "#555",
   "theme_color": "#f00",
   "display": "standalone",
@@ -9,12 +10,14 @@
     {
       "src": "img/logo192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "img/logo512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
